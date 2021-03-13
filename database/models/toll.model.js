@@ -1,6 +1,6 @@
 const mongoose = require("mongoose")
 
-const ArticleSchema = new mongoose.Schema({
+const TollSchema = new mongoose.Schema({
     name: {
       type: mongoose.Schema.Types.String,
       required: true,
@@ -16,5 +16,5 @@ const ArticleSchema = new mongoose.Schema({
   
   }, { timestamps: true, versionKey: false })
   
-  module.exports = mongoose.model("Article", ArticleSchema)
+  module.exports = mongoose.model("Toll", TollSchema)
   
