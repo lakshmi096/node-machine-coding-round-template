@@ -40,13 +40,16 @@ We want to build a parking lot management application. Multiple parking lots wan
 1. There are two types of vehicles: Two-Wheeler, Car.
 2. Each parking lot has separate capacity for each kind of vehicle.
 3. There are different slab based hourly rate cards for each kind of vehicle.
+
 **Assume that:**
-1. Parking lots with rates and capacities are known to the system. No apis are needed to register
+Parking lots with rates and capacities are known to the system. No apis are needed to register
 these.
+
 **Demonstrate:**
 1. Park a Vehicle at a given parking lot (should fail if the lot is full).
 2. Exit from the parking area and tell the amount due for the duration.
 3. Given a vehicle no., see complete parking history (Lot, Duration, Amount Paid).
+
 **Notes:**
 1. Focus on building a working demo first. Demonstrable code is the primary expectation.
 2. You are free to use any programming language. You can write a CLI, a HTTP API, or even use the main method to demonstrate the code.
